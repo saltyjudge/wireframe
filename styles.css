@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    background-color: #1f2937;
+    font-family: 'Roboto', sans-serif;
+}
+nav ul{
+    display: flex;
+    margin: 24px 100px 24px 100px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+#logo{
+    display: block;
+    margin-right: auto;
+    color: #F9FAF8;
+    font-family: Roberto;
+    font-weight: 800;
+    font-size: 24px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #F9FAF8;
+}
