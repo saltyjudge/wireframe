@@ -1,22 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 *{
-    margin:0px;
+    margin: 0px;
     padding:0px;
     box-sizing: border-box;
     background-color: #1f2937;
     font-family: 'Roboto', sans-serif;
+    color: #F9FAF8;
+}
+body{
+    margin: 24px 200px 24px 200px;
 }
 nav ul{
     display: flex;
-    margin: 24px 100px 24px 100px;
+    margin: 24px 0 24px 0px;
     justify-content: flex-end;
-    align-items: center;
     gap: 20px;
 }
 nav ul li{
     list-style: none;
-    margin-right: 50px;
+    margin-left: 50px;
+    
 }
 #logo{
     display: block;
@@ -25,8 +29,41 @@ nav ul li{
     font-family: Roberto;
     font-weight: 800;
     font-size: 24px;
+    margin-left: 0px;
 }
 nav ul li a{
     text-decoration: none;
     color: #F9FAF8;
+    
+}
+.container{
+    display: flex;
+    margin: 120px 0px 24px 0px;
+    gap: 50px;
+    justify-content: space-between;
+}
+.item{
+    width: 50%;
+}
+.item1 h1{
+    font-size: 48px;
+    font-weight: 800;
+}
+.item1 p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.item1 button{
+    background-color: #3882F6;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+}
+.item2 img{
+    object-fit: cover;
+    width: 100%;
 }
